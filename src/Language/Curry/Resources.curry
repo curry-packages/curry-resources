@@ -75,17 +75,16 @@ curryPackagesDocURL = curryPackagesURL ++ "DOC/"
 curryPackageDocURL :: String -> String -> String
 curryPackageDocURL pn pv = curryPackagesDocURL ++ pn ++ "-" ++ pv
 
-
 --- The URL of the API search engine.
 currygleURL :: String
-currygleURL = "https://www-ps.informatik.uni-kiel.de/kics2/currygle/"
+currygleURL = "https://cpm.curry-lang.org/currygle/"
 
 --- The URL of the Curry Wiki.
 curryWikiURL :: String
 curryWikiURL = "https://www-ps.informatik.uni-kiel.de/currywiki"
 
 ------------------------------------------------------------------------------
--- URL of Curry systems:
+-- URLs of Curry systems:
 
 --- The home page of the Curry system PAKCS.
 pakcsURL :: String
