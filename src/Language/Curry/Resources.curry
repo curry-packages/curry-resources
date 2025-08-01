@@ -10,7 +10,7 @@ module Language.Curry.Resources where
 
 --- The URL of the home page of Curry.
 curryHomeURL :: String
-curryHomeURL = "http://www.curry-lang.org"
+curryHomeURL = "https://www.curry-lang.org"
 
 --- The URL of Masala, the web-based system to upload and publish
 --- Curry packages.
@@ -20,7 +20,7 @@ masalaHomeURL = "https://cpm.curry-lang.org/masala/"
 --- The URL of the home page of CPM containing a description and
 --- some documentation about CPM.
 cpmHomeURL :: String
-cpmHomeURL = "http://www.curry-lang.org/tools/cpm"
+cpmHomeURL = "https://www.curry-lang.org/tools/cpm"
 
 --- The URL of the documentation of all published packages.
 --- It contains the overview and index of all published Curry packages.
